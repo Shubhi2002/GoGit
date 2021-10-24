@@ -1,3 +1,6 @@
+Ques - 1 How and why merge conflicts arise?
+A merge conflict happens when there are different modifications in the same region of a file. Git can't know which of the changes to keep, and thus needs human intervention to resolve the conflict.
+
 Hey!! My name is Shubhi...
 Github profile link: https://github.com/Shubhi2002
 
@@ -28,3 +31,8 @@ git diff
 git checkout "name of the file in which commit was made"
 
 Now the branch will be clean and you can push the changes.
+
+2. No, Force pushing is not a good practice because it may overwrite the commits which in turn may lead to conflicts to others working in the same repository.
+   In our case Force push was okay because we were the only one working in our repository.
+   
+3. Git Submodules
